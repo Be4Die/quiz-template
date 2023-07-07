@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/global.uss?fileID=7433441132597879392&amp;guid=28a6e4a2932469e4a8887eb4dbae2ec3&amp;type=3#global" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-left: 19px; padding-right: 22px; padding-top: 25px; padding-bottom: 31px; flex-direction: row; flex-shrink: 0;">
+        <ui:VisualElement name="Content" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column;">
+            <ui:VisualElement name="Image" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 7px; border-bottom-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; background-image: url(&apos;project://database/Assets/ThirdParty/2D%20Casual%20UI/Sprite/GUI.png?fileID=21300040&amp;guid=1eaee135ce037439d925cee5e41ce026&amp;type=3#GUI_20&apos;); -unity-background-scale-mode: scale-to-fit; align-self: center; width: 91%; height: 65%; margin-top: 82px;" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center;">
+                <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " display-tooltip-when-elided="true" name="Question" style="align-self: center; -unity-text-align: upper-center; white-space: normal; font-size: 25px; justify-content: center; -unity-font-style: bold; color: rgb(255, 244, 244);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Answers" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 67%; justify-content: center;">
+            <ui:Button text="Длинный отввет на вопрос" display-tooltip-when-elided="true" name="Ans1" class="defaultBtn" style="font-size: 29%; white-space: normal; padding-top: 4%; padding-bottom: 5%;" />
+            <ui:Button text="Длинный отввет на вопрос" display-tooltip-when-elided="true" name="Ans2" class="defaultBtn" style="font-size: 29%; white-space: normal; padding-top: 4%; padding-bottom: 5%;" />
+            <ui:Button text="Длинный отввет на вопрос" display-tooltip-when-elided="true" name="Ans3" class="defaultBtn" style="font-size: 29%; white-space: normal; padding-top: 4%; padding-bottom: 5%;" />
+            <ui:Button text="Длинный отввет на вопрос" display-tooltip-when-elided="true" name="Ans4" class="defaultBtn" style="font-size: 29%; white-space: normal; padding-top: 4%; padding-bottom: 5%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
