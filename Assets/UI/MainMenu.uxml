@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/global.uss?fileID=7433441132597879392&amp;guid=28a6e4a2932469e4a8887eb4dbae2ec3&amp;type=3#global" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="Body" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: space-around; flex-shrink: 1;">
+            <ui:Label tabindex="-1" text="Название Игры" display-tooltip-when-elided="true" name="Title" class="title" style="padding-left: 3%; padding-right: 3%; padding-top: 2%; padding-bottom: 2%;" />
+            <ui:Button text="Играть" display-tooltip-when-elided="true" name="Play" class="defaultBtn" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Foother" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0);">
+            <ui:Button name="Music" class="iconBtn" style="padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%; align-self: flex-end; background-image: url(&apos;project://database/Assets/ThirdParty/2D%20Casual%20UI/Sprite/GUI-Sound-On.png?fileID=21300000&amp;guid=99ae7dc195885d849a98ab71ae2c4e36&amp;type=3#GUI-Sound-On&apos;); background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); -unity-background-scale-mode: scale-and-crop; margin-right: 2%; margin-bottom: 2%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
