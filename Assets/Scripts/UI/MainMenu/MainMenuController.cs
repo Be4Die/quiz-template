@@ -1,6 +1,7 @@
 using QuizTemplate.UI.Common;
 using UnityEngine.UIElements;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace QuizTemplate.UI
 {
@@ -12,20 +13,22 @@ namespace QuizTemplate.UI
 
         [SerializeField] private Sprite m_soundOn;
         [SerializeField] private Sprite m_soundOff;
-        private string m_title;
         private Button m_musicButton;
+        private Button m_playButton;
 
         protected override void RegistrDynamicUI()
         {
             base.RegistrDynamicUI();
 
-            m_root.Q<Label>(m_titleLabelLiteral).text = m_title;
+            m_root.Q<Label>(m_titleLabelLiteral).text = SettingsProvider.GetGameName();
             m_musicButton = m_root.Q<Button>(m_musicButtonLiteral);
+            m_playButton = m_root.Q<Button>(m_playButtonLiteral);
         }
 
         protected override void BindElements()
         {
             m_musicButton.clicked += ToggleMusic;
+            m_playButton.clicked += () => SceneManager.LoadScene("Quiz");
         }
 
         private void ToggleMusic()
